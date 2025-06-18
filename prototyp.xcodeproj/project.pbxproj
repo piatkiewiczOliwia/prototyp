@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44104A0E2E02FB6C00439EBB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44104A0D2E02FB6C00439EBB /* LoginView.swift */; };
+		44104A102E030F7800439EBB /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44104A0F2E030F7800439EBB /* HomePageView.swift */; };
+		44104A122E03156800439EBB /* TopBarHomePageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44104A112E03156800439EBB /* TopBarHomePageButton.swift */; };
+		44104A142E031F5500439EBB /* TopFiltersScrollViewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44104A132E031F5500439EBB /* TopFiltersScrollViewItemView.swift */; };
 		4447F2932E01A0C2006C3CB1 /* prototypApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4447F2922E01A0C2006C3CB1 /* prototypApp.swift */; };
-		4447F2952E01A0C2006C3CB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4447F2942E01A0C2006C3CB1 /* ContentView.swift */; };
 		4447F2972E01A0C3006C3CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4447F2962E01A0C3006C3CB1 /* Assets.xcassets */; };
 		4447F29A2E01A0C3006C3CB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4447F2992E01A0C3006C3CB1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44104A0D2E02FB6C00439EBB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		44104A0F2E030F7800439EBB /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		44104A112E03156800439EBB /* TopBarHomePageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarHomePageButton.swift; sourceTree = "<group>"; };
+		44104A132E031F5500439EBB /* TopFiltersScrollViewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFiltersScrollViewItemView.swift; sourceTree = "<group>"; };
 		4447F28F2E01A0C2006C3CB1 /* prototyp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prototyp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4447F2922E01A0C2006C3CB1 /* prototypApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prototypApp.swift; sourceTree = "<group>"; };
-		4447F2942E01A0C2006C3CB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4447F2962E01A0C3006C3CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4447F2992E01A0C3006C3CB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				4447F2922E01A0C2006C3CB1 /* prototypApp.swift */,
-				4447F2942E01A0C2006C3CB1 /* ContentView.swift */,
 				4447F2962E01A0C3006C3CB1 /* Assets.xcassets */,
 				4447F2982E01A0C3006C3CB1 /* Preview Content */,
+				44104A0D2E02FB6C00439EBB /* LoginView.swift */,
+				44104A0F2E030F7800439EBB /* HomePageView.swift */,
+				44104A112E03156800439EBB /* TopBarHomePageButton.swift */,
+				44104A132E031F5500439EBB /* TopFiltersScrollViewItemView.swift */,
 			);
 			path = prototyp;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4447F2952E01A0C2006C3CB1 /* ContentView.swift in Sources */,
+				44104A142E031F5500439EBB /* TopFiltersScrollViewItemView.swift in Sources */,
 				4447F2932E01A0C2006C3CB1 /* prototypApp.swift in Sources */,
+				44104A102E030F7800439EBB /* HomePageView.swift in Sources */,
+				44104A0E2E02FB6C00439EBB /* LoginView.swift in Sources */,
+				44104A122E03156800439EBB /* TopBarHomePageButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
