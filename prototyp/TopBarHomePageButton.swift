@@ -17,7 +17,7 @@ struct TopBarHomePageButton: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 17)
                     .stroke(Color.gray, lineWidth: 0.5)
-                    .frame(width: UIScreen.main.bounds.width/3.2, height: 40)
+                    .frame(width: UIScreen.main.bounds.width/3.35, height: 40)
                     .background(.white)
                 HStack {
                     Image(systemName: icon)

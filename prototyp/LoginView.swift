@@ -20,16 +20,7 @@ struct LoginView: View {
                     
                     forgotPassword
                     
-                    Button {
-                        presentationMode.wrappedValue.dismiss()
-                        submitted = true
-                    } label: {
-                        Text("Login")
-                            .foregroundColor(.black)
-                            .frame(width: 300, height: 50)
-                            .background(Color.black.opacity(0.08))
-                            .cornerRadius(15)
-                    }
+                    loginButton
                 }
             }
             .edgesIgnoringSafeArea(.all)
@@ -46,15 +37,15 @@ struct LoginView: View {
 extension LoginView {
     private var usernamePasswordTextfields: some View {
         VStack {
-            Text("Login")
+            Text("Yumsy")
                 .fontWeight(.semibold)
                 .font(.largeTitle)
-            TextField("Username...", text: $username)
+            TextField("Username", text: $username)
                 .padding()
                 .frame(width: 300, height: 50)
                 .background(.black.opacity(0.05))
                 .cornerRadius(15)
-            SecureField("Password...", text: $password)
+            SecureField("Password", text: $password)
                 .padding()
                 .frame(width: 300, height: 50)
                 .background(.black.opacity(0.05))
@@ -68,11 +59,23 @@ extension LoginView {
             Text("Forgot password?")
                 .font(Font(.init(.label, size: 12)))
                 .foregroundStyle(.secondary)
-                .onTapGesture {
-                    
-                }
+                .padding(.bottom)
+                .onTapGesture {}
         }
         .frame(width: 300)
+    }
+    
+    private var loginButton: some View {
+        Button {
+            presentationMode.wrappedValue.dismiss()
+            submitted = true
+        } label: {
+            Text("Login")
+                .foregroundColor(.black)
+                .frame(width: 300, height: 50)
+                .background(Color.black.opacity(0.08))
+                .cornerRadius(15)
+        }
     }
     
 }
